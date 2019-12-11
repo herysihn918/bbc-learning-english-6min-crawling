@@ -18,7 +18,7 @@ def download_media(media):
     pdf_link = soup.find("a", {"class": "bbcle-download-extension-pdf"})
     mp3_link = soup.find("a", {"class": "bbcle-download-extension-mp3"})
         
-    #pdf download
+    # pdf download
     print()
     print("downloading PDF...")
     try:
